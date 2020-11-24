@@ -17,9 +17,9 @@ compile pjprojecte-2.10 in vs2017
 
 在pjlib\include\pj目录下添加config_site.h头文件，缺少config_site.h头文件，编译的时候会报错。
 
-解决方法：
+    解决方法：
 
-在\pjproject-2.8\pjlib\include\pj目录下拷贝config_site_sample.h并改名为config_site.h
+    在\pjproject-2.8\pjlib\include\pj目录下拷贝config_site_sample.h并改名为config_site.h
 
 
 
@@ -37,12 +37,11 @@ compile pjprojecte-2.10 in vs2017
 
 #解决方案：
 
-1、选择vs2017中的 工具-选项-文本编辑器-c\c+±高级-禁用IntelliSense属性设置为true，然后关闭 Visual Studio 2017
+1. 选择vs2017中的 工具-选项-文本编辑器-c\c+±高级-禁用IntelliSense属性设置为true，然后关闭 Visual Studio 2017
 
 2. 打开 Visual Studio 开发人员命令提示符（Developer Command Prompt for VS 2017）
 
 3. 命令行中运行命令：
-
     set TraceDesignTime=true
     注意：执行完不要关闭窗口
 
